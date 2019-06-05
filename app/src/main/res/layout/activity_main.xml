@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="20dp"
-            android:text="toast吐司" />
+            android:text="悬浮tabRecyclview" />
 
         <View
             android:layout_width="1dp"

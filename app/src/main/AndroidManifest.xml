@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SuspensionTabActivity"></activity>
+        <activity android:name=".Main3Activity"></activity>
+        <activity android:name=".SuspensionTabActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +21,13 @@
         <activity android:name=".YcToastUtilsActivity" />
         <activity android:name=".LoadingActivity" />
         <activity android:name=".DialogActivity" />
+        <activity android:name=".third.party.TwoSameTopBarActivity" />
+        <activity android:name=".third.party.ListViewAddHeaderActivity" />
+        <activity android:name=".third.party.OneTopBarActivity" />
+        <activity android:name=".third.party.MaterialDesignTopBarActivity" />
+        <activity android:name=".third.party.DecorationActivity" />
+        <activity android:name=".third.party.GroupAndDecorationActivity" />
+        <activity android:name=".third.party.Main2Activity" />
     </application>
 
 </manifest>

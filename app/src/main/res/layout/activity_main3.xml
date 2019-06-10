@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:showImgBg='@{treeItemBean.defaultUrl}' />
+                android:background="@drawable/ic_launcher" />
 
             <View
                 android:layout_width="match_parent"
@@ -46,7 +46,7 @@
                 android:shadowDy="8.0"
                 android:shadowRadius="4.0"
                 android:text="分类"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/colorTheme"
                 android:textSize="12sp"
                 tools:text="共12个子分类" />
 
@@ -62,7 +62,7 @@
                 app:contentInsetStart="0dp"
                 app:contentInsetStartWithNavigation="0dp"
                 app:layout_collapseMode="pin"
-                app:navigationIcon="@drawable/ic_launcher_foreground"
+                app:navigationIcon="@drawable/ic_launcher"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                 app:title="标题"
                 app:titleTextColor="@color/colorTabTextNormal" />
@@ -74,7 +74,7 @@
             android:id="@+id/tabLayout"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="@color/colorWhite"
+            android:background="@color/white"
             app:tabGravity="center"
             app:tabIndicatorColor="@color/colorTheme"
             app:tabIndicatorHeight="2dp"

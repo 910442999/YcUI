@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="20dp"
-            android:text="悬浮" />
+            android:text="折叠标题栏" />
 
         <View
             android:layout_width="1dp"
@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="20dp"
-            android:text="" />
+            android:text="仿UC首页" />
     </LinearLayout>
 
     <View

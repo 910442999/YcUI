@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">YcUI</string>
+
+    <string name="behavior_contents">com.yc.ycui.uc.home.behavior.uc.UcNewsContentBehavior</string>
+    <string name="behavior_uc_header_pager">com.yc.ycui.uc.home.behavior.uc.UcNewsHeaderPagerBehavior</string>
+    <string name="behavior_uc_title">com.yc.ycui.uc.home.behavior.uc.UcNewsTitleBehavior</string>
+    <string name="behavior_uc_news_tab">com.yc.ycui.uc.home.behavior.uc.UcNewsTabBehavior</string>
 </resources>

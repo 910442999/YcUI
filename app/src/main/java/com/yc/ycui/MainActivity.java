@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.yc.ycui.suspension.tab.Main3Activity;
 import com.yc.ycui.third.party.Main2Activity;
+import com.yc.ycui.uc.channel.ChannelActivity;
 import com.yc.ycui.uc.home.Main4Activity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.text4).setOnClickListener(this);
         findViewById(R.id.text5).setOnClickListener(this);
         findViewById(R.id.text6).setOnClickListener(this);
+        findViewById(R.id.text7).setOnClickListener(this);
     }
 
     @Override
@@ -38,6 +40,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(this, Main3Activity.class));
         }else if (id == R.id.text6) {
             startActivity(new Intent(this, Main4Activity.class));
+        }else if (id == R.id.text7) {
+            startActivity(new Intent(this, ChannelActivity.class));
         }
     }
 }

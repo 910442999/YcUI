@@ -30,6 +30,7 @@
         <activity android:name=".third.party.DecorationActivity" />
         <activity android:name=".third.party.GroupAndDecorationActivity" />
         <activity android:name=".third.party.Main2Activity" />
+        <activity android:name=".uc.channel.ChannelActivity" />
     </application>
 
 </manifest>

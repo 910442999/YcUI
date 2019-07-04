@@ -118,11 +118,12 @@
             android:background="@color/black" />
 
         <TextView
+            android:id="@+id/text8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:padding="20dp"
-            android:text="" />
+            android:text="仿uc首页2" />
     </LinearLayout>
 
     <View

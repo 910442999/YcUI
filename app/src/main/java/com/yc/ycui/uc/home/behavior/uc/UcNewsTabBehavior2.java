@@ -46,7 +46,7 @@ public class UcNewsTabBehavior2 extends HeaderScrollingViewBehavior {
     }
 
     private void offsetChildAsNeeded(CoordinatorLayout parent, View child, View dependency) {
-        float offsetRange = dependency.getTop()  - child.getTop();
+        float offsetRange = dependency.getTop() - child.getTop();
         int headerOffsetRange = getHeaderOffsetRange();
         if (dependency.getTranslationY() == headerOffsetRange) {
             child.setTranslationY(offsetRange);

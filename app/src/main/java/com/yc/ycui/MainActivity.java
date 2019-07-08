@@ -10,6 +10,7 @@ import com.yc.ycui.third.party.Main2Activity;
 import com.yc.ycui.uc.channel.ChannelActivity;
 import com.yc.ycui.uc.home.Main4Activity;
 import com.yc.ycui.uc.home.Main5Activity;
+import com.yc.ycui.uc.home.Main6Activity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.text6).setOnClickListener(this);
         findViewById(R.id.text7).setOnClickListener(this);
         findViewById(R.id.text8).setOnClickListener(this);
+        findViewById(R.id.text9).setOnClickListener(this);
     }
 
     @Override
@@ -46,6 +48,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(this, ChannelActivity.class));
         }else if (id == R.id.text8) {
             startActivity(new Intent(this, Main5Activity.class));
+        }else if (id == R.id.text9) {
+            startActivity(new Intent(this, Main6Activity.class));
         }
     }
 }

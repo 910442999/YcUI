@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yc.ycui">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:name=".DemoApplication"
         android:allowBackup="true"
@@ -31,7 +32,8 @@
         <activity android:name=".third.party.GroupAndDecorationActivity" />
         <activity android:name=".third.party.Main2Activity" />
         <activity android:name=".uc.channel.ChannelActivity" />
-        <activity android:name=".uc.home.Main5Activity"></activity>
+        <activity android:name=".uc.home.Main5Activity"/>
+        <activity android:name=".uc.home.Main6Activity"/>
 
     </application>
 

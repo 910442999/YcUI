@@ -34,4 +34,5 @@ dependencies {
     implementation 'com.android.support:design:28.+'
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.35'
+    implementation 'com.yc:YcAndroidUtils:1.2.0'
 }

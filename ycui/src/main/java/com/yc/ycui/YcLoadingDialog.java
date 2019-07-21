@@ -2,11 +2,10 @@ package com.yc.ycui;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
-
-import com.yc.yclibrary.YcStringUtils;
 
 /**
  * 加载提示窗
@@ -79,7 +78,7 @@ public class YcLoadingDialog extends Dialog {
             loadingDailog = new YcLoadingDialog(context, themeResId);
         }
         TextView msgText = (TextView) view.findViewById(R.id.tipTextView);
-        if (!YcStringUtils.isEmpty(message)) {
+        if (!TextUtils.isEmpty(message)) {
             msgText.setText(message);
         } else {
             msgText.setVisibility(View.GONE);
